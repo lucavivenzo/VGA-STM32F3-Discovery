@@ -102,7 +102,7 @@ INCS      += -I$(DEM_DIR)/Inc
 INCS      += -I$(STEMWIN_DIR)/inc
 
 # Library search paths (-L flags)
-LIBS       = -L$(STEMWIN_DIR)/LibProva
+LIBS       = -L$(DEM_DIR)/lib
 LIB = emWin_nosnts_cm4f_gcc
 # Compiler flags
 CFLAGS     = -Wall -g -std=c99 -Os
