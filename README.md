@@ -5,12 +5,11 @@ La documentazione è disponibile sulla [Wiki](http://www.naplespu.com/es/index.p
 Un video della Demo realizzata è disponibile su [Youtube](https://www.youtube.com/watch?v=aGSfR4g1vQc)
 
 # Come eseguire l'applicazione di Demo
-Come prima cosa è necessario procurarsi STM32CubeF3 (nel Makefile, la radice è `STM_DIR`). Il contenuto della nostra repository dovrà essere apposto in una cartella creata all'interno di `$STM_DIR\Projects\STM32F3-Discovery`. Per poter compilare sulla propria macchina è necessario modificare opportunamente i campi STM_DIR e DEM_DIR all'interno del makefile nella radice della repository.
+Come prima cosa è necessario procurarsi STM32CubeF3 (nel Makefile, la radice è `STM_DIR`). Il contenuto della nostra repository dovrà essere apposto in una cartella creata all'interno di `$STM_DIR\Projects\STM32F3-Discovery`. Per poter compilare sulla propria macchina è necessario modificare opportunamente i campi `STM_DIR` e `DEM_DIR` all'interno del makefile nella radice della repository.
 
 A questo punto per compilare sarà sufficiente eseguire all'interno della cartella p1Gruppo13 i seguenti comandi:
 ```
 $ make prepare
 $ make
 ```
-ed in seguito lanciare l'applicazione tramite openOCD.
 
