@@ -128,7 +128,7 @@ int main(void)
   LCD_X_DisplayDriver(): mette in funzione il display controller
   */
   GUI_SetFont(&GUI_Font32B_1); 
-  uint8_t state;	  
+  uint8_t state=0;	  
   int xposizione = -30;
   int yposizione = 150;
   int CountMin =0;
