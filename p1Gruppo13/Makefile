@@ -96,8 +96,6 @@ INCS      += -I$(STM_DIR)/Drivers/CMSIS/Include
 INCS      += -I$(STM_DIR)/Drivers/CMSIS/Device/ST/STM32F3xx/Include
 INCS      += -I$(STM_DIR)/Drivers/STM32F3xx_HAL_Driver/Inc
 INCS      += -I$(STM_DIR)/Drivers/BSP/STM32F3-Discovery
-INCS      += -I$(STM_DIR)/Middlewares/ST/STM32_USB_Device_Library/Core/Inc
-INCS      += -I$(STM_DIR)/Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc
 INCS      += -I$(DEM_DIR)/Inc
 INCS      += -I$(STEMWIN_DIR)/inc
 
