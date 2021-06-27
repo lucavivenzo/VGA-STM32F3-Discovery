@@ -169,7 +169,7 @@ void LCD_X_Config(void)
   //
   // Initialize VRAM access off driver
   //
-  LCD_SetVRAMAddrEx(0, (void *)&_VRAM_Desc); // a che serve?
+  LCD_SetVRAMAddrEx(0, (void *)&_VRAM_Desc);
 }
 
 /*********************************************************************
