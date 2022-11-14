@@ -3,7 +3,7 @@ The goal of this project was to design and build an application based on the Har
 Documentation is currently available in the internal [Wiki](http://www.naplespu.com/es/index.php?title=Sviluppo_di_un%27applicazione_basata_su_middleware_STM32Cube:_graphics,_display_(VGA/HDMI))
 
 # Demo
-A video showing the demo is available on [Youtube](https://www.youtube.com/watch?v=aGSfR4g1vQc)
+A video showing the demo is available on [Youtube](https://www.youtube.com/watch?v=aGSfR4g1vQc).
 The block diagram is shown below, along with the output we displayed on the screen in the Demo application.
 ![Block Diagram](https://i.imgur.com/hPxTZJF.jpeg)
 ![Demo Video Output](https://i.imgur.com/semI2Es.png)
