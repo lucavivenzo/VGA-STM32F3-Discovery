@@ -1,15 +1,18 @@
-# Progetto P1 Sistemi Embedded
-## Gruppo 13: Marra, Papulino, Staiano, Vivenzo
-L’obiettivo di questo elaborato è la progettazione, ed il successivo sviluppo, di un’applicazione basata sulle librerie HAL e sulle librerie STemWin offerte all’interno del package STM32Cube. L’idea è quindi quella di interfacciare la scheda a nostra disposizione (STM32F3-Discovery / STM32F303VC) con uno schermo VGA utilizzando hardware esterno e mostrando a video delle immagini di output.
-La documentazione è disponibile sulla [Wiki](http://www.naplespu.com/es/index.php?title=Sviluppo_di_un%27applicazione_basata_su_middleware_STM32Cube:_graphics,_display_(VGA/HDMI))
-Un video della Demo realizzata è disponibile su [Youtube](https://www.youtube.com/watch?v=aGSfR4g1vQc)
+# VGA output using an STM32F3-Discovery board
+The goal of this project was to design and build an application based on the Hardware Abstraction Layer (HAL) and STemWin libraries available in the STM32Cube package. We decided to build a VGA interface for an STM32F3-Discovery board (STM32F303VC) to send video signals to a Monitor, displaying images on the screen as a proof of concept.
+Documentation is currently available in the internal [Wiki](http://www.naplespu.com/es/index.php?title=Sviluppo_di_un%27applicazione_basata_su_middleware_STM32Cube:_graphics,_display_(VGA/HDMI))
+A simple Demo is available on [Youtube](https://www.youtube.com/watch?v=aGSfR4g1vQc)
 
-# Come eseguire l'applicazione di Demo
-Come prima cosa è necessario procurarsi STM32CubeF3 (nel Makefile, la radice è `STM_DIR`). Il contenuto della nostra repository dovrà essere apposto in una cartella creata all'interno di `$STM_DIR\Projects\STM32F3-Discovery`. Per poter compilare sulla propria macchina è necessario modificare opportunamente i campi `STM_DIR` e `DEM_DIR` all'interno del makefile nella cartella `p1Gruppo13` della repository.
+# How to run the Demo
+After downloading STM32CubeF3 (in the Makefile, the root directory is `STM_DIR`) move the contents of this repository inside `$STM_DIR\Projects\STM32F3-Discovery`. Some changes to the variables `STM_DIR` and `DEM_DIR` in the Makefile are necessary to compile for a specific board.
 
-A questo punto per compilare sarà sufficiente eseguire all'interno della cartella `p1Gruppo13` i seguenti comandi:
+To compile the project, run the following code in `p1Gruppo13`:
 ```
 $ make prepare
 $ make
 ```
-
+# Contributors
+Carmine Marra 
+Francesco Maria Papulino
+Simone Staiano 
+Luca Vivenzo
