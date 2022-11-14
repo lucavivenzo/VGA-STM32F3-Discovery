@@ -5,8 +5,8 @@ Documentation is currently available in the internal [Wiki](http://www.naplespu.
 # Demo
 A video showing the demo is available on [Youtube](https://www.youtube.com/watch?v=aGSfR4g1vQc)
 The block diagram is shown below, along with the output we displayed on the screen in the Demo application.
-![Block Diagram]([http://www.naplespu.com/es/images/5/5c/Gruppo13_collegamenti.jpg])
-![Demo Video Output]([http://www.naplespu.com/es/images/9/9d/Gruppo13_demo.png])
+![Block Diagram]([https://i.imgur.com/hPxTZJF.jpeg])
+![Demo Video Output]([https://i.imgur.com/semI2Es.png])
 
 ## How to run the Demo
 After downloading STM32CubeF3 (in the Makefile, the root directory is `STM_DIR`) move the contents of this repository inside `$STM_DIR\Projects\STM32F3-Discovery`. Some changes to the variables `STM_DIR` and `DEM_DIR` in the Makefile are necessary to compile for a specific board.
