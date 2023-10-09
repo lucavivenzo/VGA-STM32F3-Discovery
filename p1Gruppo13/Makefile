@@ -12,7 +12,7 @@
 TARGET     = progetto
 
 # path to the root folder of the STM32Cube platform
-STM_DIR   = /C/Users/lucav/Documents/Uni/SistemiEmbedded/STM32Cube_FW_F3_V1.11.0
+STM_DIR   = /C/Users/[...]/STM32Cube_FW_F3_V1.11.0
 
 # Board and MCU  names as used in the linker script path and file name, e.g. "$(STM_DIR)/Demonstrations/SW4STM32/STM32F4-DISCO/STM32F407VGTx_FLASH.ld"
 BOARD_UC   = STM32F3-Discovery
@@ -36,7 +36,7 @@ HAL_DIR    = $(STM_DIR)/Drivers/STM32F3xx_HAL_Driver
 CMSIS_DIR  = $(STM_DIR)/Drivers/CMSIS
 DEV_DIR    = $(CMSIS_DIR)/Device/ST/STM32F3xx
 STEMWIN_DIR    = $(STM_DIR)/Middlewares/ST/STemWin
-DEM_DIR    = $(STM_DIR)/Projects/$(BSP_BOARD)/p1Gruppo13
+DEM_DIR    = .
 
 
 
@@ -186,6 +186,3 @@ clean:
 	@echo "[RM]      ld script"; rm -f src/linkerScript.ld
 	@echo "[RMDIR]   dep"          ; rm -fr dep
 	@echo "[RMDIR]   obj"          ; rm -fr obj
-	@echo "[RMDIR]   obj"          ; rm -fr src
-load:
-	openocd -f "C:\Users\lucav\Documents\Uni\SistemiEmbedded\Strumenti\xpack-openocd-0.11.0-1\scripts\board\stm32f3discovery.cfg"
