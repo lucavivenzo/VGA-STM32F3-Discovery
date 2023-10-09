@@ -10,7 +10,8 @@ The block diagram is shown below, along with the output we displayed on the scre
 
 ## How to run the Demo
 After downloading STM32CubeF3, specify its path in the Makefile (the root directory is `STM_DIR`).
-Include your own copy of the emWin library in the `lib` folder.
+
+Modify the `LIBS` and `LIB` variables in the makefile in order to point at your own copy of the emWin library.
 
 To compile the project, run the following code in `p1Gruppo13`:
 ```
