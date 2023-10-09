@@ -1,5 +1,5 @@
 # VGA output using an STM32F3-Discovery board
-The goal of this project was to design and build an application based on the Hardware Abstraction Layer (HAL) and STemWin libraries available in the STM32Cube package. We decided to build a VGA interface for an STM32F3-Discovery board (STM32F303VC) to send video signals to a Monitor, displaying images on the screen as a proof of concept.
+The objective of this project was to utilize an STM32F3-Discovery board (STM32F303VC) for the transmission of VGA video signals to a monitor. To achieve this goal, we developed an application leveraging the Hardware Abstraction Layer (HAL) provided in the STM32Cube package, in combination with emWin libraries. Additionally, we designed a custom adapter to establish the connection between the VGA pins and the STM board.
 Documentation is currently available in the internal [Wiki](http://www.naplespu.com/es/index.php?title=Sviluppo_di_un%27applicazione_basata_su_middleware_STM32Cube:_graphics,_display_(VGA/HDMI)).
 
 # Demo
@@ -9,7 +9,8 @@ The block diagram is shown below, along with the output we displayed on the scre
 ![Demo Video Output](https://i.imgur.com/semI2Es.png)
 
 ## How to run the Demo
-After downloading STM32CubeF3 (in the Makefile, the root directory is `STM_DIR`) move the contents of this repository inside `$STM_DIR\Projects\STM32F3-Discovery`. Some changes to the variables `STM_DIR` and `DEM_DIR` in the Makefile are necessary to compile for a specific board.
+After downloading STM32CubeF3, specify its path in the Makefile (the root directory is `STM_DIR`).
+Include your own copy of the emWin library in the `lib` folder.
 
 To compile the project, run the following code in `p1Gruppo13`:
 ```
