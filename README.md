@@ -1,6 +1,6 @@
 # VGA output using an STM32F3-Discovery board
 The objective of this project was to utilize an STM32F3-Discovery board (STM32F303VC) for the transmission of VGA video signals to a monitor. To achieve this goal, we developed an application leveraging the Hardware Abstraction Layer (HAL) provided in the STM32Cube package, in combination with emWin libraries. Additionally, we designed a custom adapter to establish the connection between the VGA pins and the STM board.
-Documentation is currently available in the internal [Wiki](http://www.naplespu.com/es/index.php?title=Sviluppo_di_un%27applicazione_basata_su_middleware_STM32Cube:_graphics,_display_(VGA/HDMI)).
+Documentation (in Italian) is currently available in the [Wiki](https://github.com/lucavivenzo/VGA-STM32F3-Discovery/wiki).
 
 # Demo
 A video showing the demo is available on [Youtube](https://www.youtube.com/watch?v=aGSfR4g1vQc).
