@@ -3,7 +3,7 @@ The objective of this project was to utilize an STM32F3-Discovery board (STM32F3
 
 The application primarily focuses on creating the necessary VGA synchronization signals while also handling the analog green signal through SPI communication. The VGA signal is adapted to the standard 1V voltage level required by VGA monitors using a voltage divider. To drive the pixel data, the application employs the Direct Memory Access (DMA) controller to efficiently transfer data to the display. The pixel data manipulation and generation are achieved through the use of the emWin library, with the application configured to work with the GUIDRV_BitPlains driver.
 
-Comprehensive documentation (in Italian) is currently available in the [Wiki](https://github.com/lucavivenzo/VGA-STM32F3-Discovery/wiki).  
+Comprehensive documentation is currently available in the [Wiki](https://github.com/lucavivenzo/VGA-STM32F3-Discovery/wiki).  
 A video showing the demo is available on [Youtube](https://www.youtube.com/watch?v=aGSfR4g1vQc).
 
 ![Demo Video Output](https://i.imgur.com/semI2Es.png)
